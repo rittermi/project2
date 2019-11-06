@@ -1,0 +1,14 @@
+I attempted Free Project 10-2 for this assignment. As usual, it did not go how I expected, but I managed to get some stuff done.
+I used the allblack code that we did in the text to create the pixel box and then looked at the putpixel function that we created.
+If you change the number in the x and y coordinates written into the code, the location of the pixel will change. Also if you change any of the numbers in the RGBA scale, the color of that pixel will change.
+It would have been really easy to just changed the code from allblack to say all white by copying the code and simply changing the RGBA scale to the white calls.
+Thought that would be too easy (though technically it would have changed all the pixels in the grid).
+Instead, I attempted to find a way to make the grid to look spotty by changing every other pixel in the y-axis to another color.
+My attempts to create this code failed and after some time just stopped calling the grid at all. I didn't get an error, but I did just get a big white blank space.
+Though I tried to define the x and y-axes so that I could use the function y+1 to create a different code. It would have been easier to call a randomizer in hindsight to mess with the code.
+The easiest way I honestly could find to do this was to call the code
+        allblack.putpixel((1, *odd number), (2, 255, 255, 255))
+The next line would have been ((2, *even number), (1, 255, 255, 255))
+with me constantly changing the numbers in the RGBA section just to see what happens and I liked being surprised by the colors.
+However, I'm sure that there is a way to create a code to make this even and odd call happen without me manually plugging in each, but, as I said, by the end of me messing with it, I just had a giant white space.
+Maybe that was changing all of the pixels in the grid and I succeeded under the parameters of the assignment, but it was not what I was trying to do.
